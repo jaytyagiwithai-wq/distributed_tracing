@@ -81,11 +81,3 @@ This project does not implement context propagation, export spans to a tracing
 backend, or automatically finish spans when operations fail. Call `end()` once
 per span. Production instrumentation typically handles those concerns with a
 tracing library such as OpenTelemetry.
-
-## Try one extension
-
-Add a second child named `check-rate-limit`, sleep for 0.1 seconds, and end it
-before ending the root. The root should then take roughly 300 milliseconds.
-
-Built as a hands-on exercise while studying observability and preparing for
-forward deployed engineering work.
