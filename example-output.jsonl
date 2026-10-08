@@ -1,0 +1,2 @@
+{"name": "fetch-user", "trace_id": "91a6dd0603990600786970f729fa4b9b", "span_id": "20a2767a4f470888", "parent_span_id": "e07df2a657db81e0", "start_time": 1791447023868, "duration_ms": 200.17, "attributes": {"service": "auth-service"}}
+{"name": "login-request", "trace_id": "91a6dd0603990600786970f729fa4b9b", "span_id": "e07df2a657db81e0", "parent_span_id": null, "start_time": 1791447023868, "duration_ms": 200.29, "attributes": {"user_id": "J-123"}}
